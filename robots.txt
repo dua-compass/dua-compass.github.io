@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/              # Block admin-related pages (if any)
+Disallow: /private-directory/  # Example directory to block (replace with actual private directories)
+
+Allow: /                       # Allow the rest of the website to be crawled
+
+Sitemap: https://www.dua-compass.com/sitemap.xml
